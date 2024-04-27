@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root {
+  /*colors */
+  --color1: #c2e8fd;
+  --color2: #ddd5d2;
+  --color3: #2b2323;
+  --color4: #916457;
+  --color5: #337abf;
+  --color6: #607c5d;
+  --color7: #7fd83a;
+  --color8: #663e35;
+  --color9: #d8bc3b;
+  --color10: #324977;
+  --color11: #ff0000;
+  --color12: blue;
+  --color13: #376efd;
+  --color14: #ffffff;
+  --color15: #ff6828;
+  --color16: #ff733753;
+  --color17: #000000;
+  --fontSizenav: 22px;
+  --fontSizelogo: 35px;
+  --fontSizelogomobile: 20px;
+  --gap: 80px;
+}
+/* header */
+header {
+  font-family: "Exo 2", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 16px 0;
+}
+/* nav */
+nav {
+  width: 100%;
+  background: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid var(--color2);
+}
+.add_nav{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+/* nav left */
+nav .left-section {
+  font-size: var(--fontSizelogo);
+  margin: 8px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--dark-text);
+  text-shadow: 0 0 2px var(--color3);
+}
+/*                                                                nav left */
+/* nav mid */
+.mid-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.mid-section ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: var(--fontSizenav);
+}
+.mid-section ul li {
+  font-size: 22.9px;
+  padding: 2px;
+  border-radius: 10px;
+}
+.mid-section ul li #home {
+  font-size: 23px;
+  background: var(--color16);
+  border-bottom: 2px solid var(--color15);
+  color: var(--gray);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.mid-section ul li:hover {
+  font-size: 23px;
+  background: var(--color16);
+  border-radius: 10px;
+  color: var(--gray);
+  padding: 2px;
+}
+.mid-section ul li #home:hover {
+  border-bottom: 2px solid var(--color15);
+  padding: 2px;
+}
+.mid-section ul li a {
+  border-radius: 10px;
+  text-shadow: 0 0px 10px var(--color14);
+}
+.mid-section li:hover a {
+  color: var(--color14);
+  text-shadow: 0 0 1px var(--color3);
+  transition: 0.3s;
+}
+/*                                                                nav mid */
+/* nav right */
+.rigth-section a button {
+  background: var(--color13);
+  color: var(--color14);
+  width: 163px;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  font-size: var(--fontSizenav);
+  margin: 8px 0;
+}
+.rigth-section a:hover button {
+  color: var(--color2);
+  text-shadow: 0 0 20px var(--color3);
+}
+
+/*                                                                nav right */
+
+/*                                                                nav */
+
+.header_Add{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* interface */
+.header_Add .interheader {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* textheader */
+.textheader {  height: 490px;
+  display: flex;
+  width: 100%;
+  max-width: 319px;
+  margin: 15px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.textheader h4 {
+  color: var(--color10);
+  text-shadow: 0 0 1.5px var(--color15);
+  font-size: 40px;
+}
+.textheader h5 {
+  color: var(--color10);
+  text-shadow: 0 0 1.5px var(--color15);
+  font-size: 13px;
+}
+.textheader img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 25px;
+  box-shadow:  0px 0px 2px var(--color14);
+}
+
+.textheader a button {
+  background: var(--color13);
+  width: 193px;
+  height: 72px;
+  border-radius: 10px;
+  border: none;
+  color: var(--color14);
+  text-shadow: 0 0 1px var(--color3);
+  font-size: var(--fontSizenav);
+  box-shadow: 0 0 10px -3px var(--color3);
+
+
+}
+.textheader a button:hover,
+button:active {
+  background: var(--color10);
+  text-shadow: 0 0 1px var(--color4);
+  box-shadow: 0 0 10px -3px var(--color4);
+}
+
+/* foto */
+
+.interheader .imgs {
+  width: 100%;
+  max-width: 408px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  gap: 8px;
+}
+.interheader .imgs img {
+  width: 35%;
+  height: 230px;
+  min-width: 194px;
+  border-radius: 12px;
+  border: 2px solid var(--color4);
+  animation: moveimgsheader 5s infinite alternate;
+}
+@media only screen and (min-width: 2000px) {
+  .interheader .imgs  {
+    max-width: 570px;
+  }
+  .interheader .imgs img {
+    height: 285px;
+    min-width: 263px;
+    border-radius: 12px;
+    border: 2px solid var(--color4);
+    animation: none;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* nav left */
+  nav{
+padding: 10px 0;
+  }
+  nav .left-section {
+    font-size: var(--fontSizelogomobile);
+    margin: 3px 0;
+  }
+  /* nav mid */
+  .mid-section {
+    display: none;
+  } 
+  /* nav right */
+  .rigth-section a button {
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: var(--fontSizelogomobile);
+    margin: 3px 0;
+  }
+   /* interface */
+  .header_Add .interheader {
+    flex-direction: column;
+    gap: 5px;
+  }
+ 
+  .interheader .imgs img {
+    height: 180px;
+    min-width: 130px;
+    border-radius: 12px;
+    border: 2px solid var(--color4);
+    animation: none;
+  }
+.interheader .imgs img:nth-child(1) {transform: rotate(-12deg)}
+.interheader .imgs img:nth-child(4) {transform: rotate(12deg)}
+
+
+  .textheader { 
+    gap: 3px;
+  }
+
+  .textheader h4 {
+    font-size: 30px;
+  }
+  .textheader h5 {
+    font-size: 10px;
+  }
+
+  
+  
+}
+
+@media only screen and (max-width: 325px) {
+  .interheader .imgs img {
+    height: 132px;
+    min-width: 90px;  
+  }
+  
+
+}
+@keyframes moveimgsheader {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(-12deg);
+  }
+}
+/*                                                                foto */
+/*                                                                interface */
+
+/*                                                                header */
